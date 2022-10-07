@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42357B0228E6923500238FAF /* FrontPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42357B0128E6923500238FAF /* FrontPageTableViewCell.swift */; };
 		427E891228E420E900BE21D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E891128E420E900BE21D5 /* AppDelegate.swift */; };
 		427E891428E420E900BE21D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E891328E420E900BE21D5 /* SceneDelegate.swift */; };
 		427E891628E420E900BE21D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E891528E420E900BE21D5 /* ViewController.swift */; };
@@ -15,10 +16,19 @@
 		427E891E28E420EB00BE21D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427E891D28E420EB00BE21D5 /* Assets.xcassets */; };
 		427E892128E420EB00BE21D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427E891F28E420EB00BE21D5 /* LaunchScreen.storyboard */; };
 		427E892A28E422BE00BE21D5 /* NetWorkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E892928E422BE00BE21D5 /* NetWorkController.swift */; };
+		42AC351228ED202E00FAB379 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC351128ED202E00FAB379 /* CommentModel.swift */; };
+		42AC351428ED5AB000FAB379 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC351328ED5AB000FAB379 /* ImageDataModel.swift */; };
+		42B1143B28EE68DC0012DF03 /* postDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1143A28EE68DC0012DF03 /* postDataModel.swift */; };
+		42B1143E28EE77BB0012DF03 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 42B1143D28EE77BB0012DF03 /* Kingfisher */; };
+		42B1144028EEBAEC0012DF03 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1143F28EEBAEC0012DF03 /* MessageTableViewCell.swift */; };
+		42B1144228EEBB4B0012DF03 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1144128EEBB4B0012DF03 /* MessageViewController.swift */; };
 		42B1900528E52BCF00ACF865 /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1900428E52BCF00ACF865 /* FrontPageViewController.swift */; };
+		42BE29FB28F00FDE008BE0CC /* FirstCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BE29FA28F00FDE008BE0CC /* FirstCommentTableViewCell.swift */; };
+		42BE29FD28F020CA008BE0CC /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BE29FC28F020CA008BE0CC /* VideoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42357B0128E6923500238FAF /* FrontPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageTableViewCell.swift; sourceTree = "<group>"; };
 		427E890E28E420E900BE21D5 /* IGApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		427E891128E420E900BE21D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		427E891328E420E900BE21D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +39,14 @@
 		427E892028E420EB00BE21D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		427E892228E420EB00BE21D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		427E892928E422BE00BE21D5 /* NetWorkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkController.swift; sourceTree = "<group>"; };
+		42AC351128ED202E00FAB379 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		42AC351328ED5AB000FAB379 /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
+		42B1143A28EE68DC0012DF03 /* postDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postDataModel.swift; sourceTree = "<group>"; };
+		42B1143F28EEBAEC0012DF03 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		42B1144128EEBB4B0012DF03 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		42B1900428E52BCF00ACF865 /* FrontPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageViewController.swift; sourceTree = "<group>"; };
+		42BE29FA28F00FDE008BE0CC /* FirstCommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCommentTableViewCell.swift; sourceTree = "<group>"; };
+		42BE29FC28F020CA008BE0CC /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,15 +54,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B1143E28EE77BB0012DF03 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42357B0328E6923A00238FAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42357B0128E6923500238FAF /* FrontPageTableViewCell.swift */,
+				42B1143F28EEBAEC0012DF03 /* MessageTableViewCell.swift */,
+				42BE29FA28F00FDE008BE0CC /* FirstCommentTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		427E890528E420E900BE21D5 = {
 			isa = PBXGroup;
 			children = (
+				42AC351028ED14E400FAB379 /* Model */,
+				42357B0328E6923A00238FAF /* View */,
 				427E892828E4212400BE21D5 /* Class */,
 				427E891028E420E900BE21D5 /* IGApp */,
 				427E890F28E420E900BE21D5 /* Products */,
@@ -68,6 +98,7 @@
 				427E891528E420E900BE21D5 /* ViewController.swift */,
 				427E891728E420E900BE21D5 /* Main.storyboard */,
 				42B1900428E52BCF00ACF865 /* FrontPageViewController.swift */,
+				42B1144128EEBB4B0012DF03 /* MessageViewController.swift */,
 				427E891D28E420EB00BE21D5 /* Assets.xcassets */,
 				427E891F28E420EB00BE21D5 /* LaunchScreen.storyboard */,
 				427E892228E420EB00BE21D5 /* Info.plist */,
@@ -82,6 +113,17 @@
 				427E892928E422BE00BE21D5 /* NetWorkController.swift */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		42AC351028ED14E400FAB379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42AC351128ED202E00FAB379 /* CommentModel.swift */,
+				42AC351328ED5AB000FAB379 /* ImageDataModel.swift */,
+				42B1143A28EE68DC0012DF03 /* postDataModel.swift */,
+				42BE29FC28F020CA008BE0CC /* VideoModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +142,9 @@
 			dependencies = (
 			);
 			name = IGApp;
+			packageProductDependencies = (
+				42B1143D28EE77BB0012DF03 /* Kingfisher */,
+			);
 			productName = IGApp;
 			productReference = 427E890E28E420E900BE21D5 /* IGApp.app */;
 			productType = "com.apple.product-type.application";
@@ -128,6 +173,9 @@
 				Base,
 			);
 			mainGroup = 427E890528E420E900BE21D5;
+			packageReferences = (
+				42B1143C28EE77BB0012DF03 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 427E890F28E420E900BE21D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -155,12 +203,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42357B0228E6923500238FAF /* FrontPageTableViewCell.swift in Sources */,
+				42AC351228ED202E00FAB379 /* CommentModel.swift in Sources */,
 				427E891628E420E900BE21D5 /* ViewController.swift in Sources */,
+				42BE29FD28F020CA008BE0CC /* VideoModel.swift in Sources */,
 				427E891228E420E900BE21D5 /* AppDelegate.swift in Sources */,
+				42B1144028EEBAEC0012DF03 /* MessageTableViewCell.swift in Sources */,
 				427E891428E420E900BE21D5 /* SceneDelegate.swift in Sources */,
+				42BE29FB28F00FDE008BE0CC /* FirstCommentTableViewCell.swift in Sources */,
+				42AC351428ED5AB000FAB379 /* ImageDataModel.swift in Sources */,
 				42B1900528E52BCF00ACF865 /* FrontPageViewController.swift in Sources */,
 				427E891C28E420E900BE21D5 /* IGApp.xcdatamodeld in Sources */,
 				427E892A28E422BE00BE21D5 /* NetWorkController.swift in Sources */,
+				42B1144228EEBB4B0012DF03 /* MessageViewController.swift in Sources */,
+				42B1143B28EE68DC0012DF03 /* postDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +434,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		42B1143C28EE77BB0012DF03 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		42B1143D28EE77BB0012DF03 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42B1143C28EE77BB0012DF03 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		427E891A28E420E900BE21D5 /* IGApp.xcdatamodeld */ = {

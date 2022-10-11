@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		42357B0228E6923500238FAF /* FrontPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42357B0128E6923500238FAF /* FrontPageTableViewCell.swift */; };
+		426F459928F500580085B586 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F459828F500580085B586 /* VideoViewController.swift */; };
+		426F459B28F502610085B586 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F459A28F502610085B586 /* AccountViewController.swift */; };
 		427E891228E420E900BE21D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E891128E420E900BE21D5 /* AppDelegate.swift */; };
 		427E891428E420E900BE21D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E891328E420E900BE21D5 /* SceneDelegate.swift */; };
 		427E891628E420E900BE21D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E891528E420E900BE21D5 /* ViewController.swift */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		42357B0128E6923500238FAF /* FrontPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageTableViewCell.swift; sourceTree = "<group>"; };
+		426F459828F500580085B586 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		426F459A28F502610085B586 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		427E890E28E420E900BE21D5 /* IGApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		427E891128E420E900BE21D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		427E891328E420E900BE21D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				427E891328E420E900BE21D5 /* SceneDelegate.swift */,
 				427E891528E420E900BE21D5 /* ViewController.swift */,
 				427E891728E420E900BE21D5 /* Main.storyboard */,
+				426F459A28F502610085B586 /* AccountViewController.swift */,
+				426F459828F500580085B586 /* VideoViewController.swift */,
 				42B1900428E52BCF00ACF865 /* FrontPageViewController.swift */,
 				42B1144128EEBB4B0012DF03 /* MessageViewController.swift */,
 				427E891D28E420EB00BE21D5 /* Assets.xcassets */,
@@ -205,12 +211,14 @@
 			files = (
 				42357B0228E6923500238FAF /* FrontPageTableViewCell.swift in Sources */,
 				42AC351228ED202E00FAB379 /* CommentModel.swift in Sources */,
+				426F459B28F502610085B586 /* AccountViewController.swift in Sources */,
 				427E891628E420E900BE21D5 /* ViewController.swift in Sources */,
 				42BE29FD28F020CA008BE0CC /* VideoModel.swift in Sources */,
 				427E891228E420E900BE21D5 /* AppDelegate.swift in Sources */,
 				42B1144028EEBAEC0012DF03 /* MessageTableViewCell.swift in Sources */,
 				427E891428E420E900BE21D5 /* SceneDelegate.swift in Sources */,
 				42BE29FB28F00FDE008BE0CC /* FirstCommentTableViewCell.swift in Sources */,
+				426F459928F500580085B586 /* VideoViewController.swift in Sources */,
 				42AC351428ED5AB000FAB379 /* ImageDataModel.swift in Sources */,
 				42B1900528E52BCF00ACF865 /* FrontPageViewController.swift in Sources */,
 				427E891C28E420E900BE21D5 /* IGApp.xcdatamodeld in Sources */,

@@ -27,7 +27,7 @@ struct VideoItems:Decodable{
     let comments:Int
     let user_id:Int
     let user:String
-    let userImageURL:URL?
+    let userImageURL:String
 }
 
 struct Videos:Decodable{

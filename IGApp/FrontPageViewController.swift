@@ -14,7 +14,7 @@ class FrontPageViewController: UIViewController {
 
     var basePostURL = URL(string: "https://dummyapi.io/data/v1/post")! //貼文url
     var baseImageURL = URL(string: "https://pixabay.com/api/?key=30378899-f29062d01d334bc90cb6d8c84")! //圖片url
-    var baseVideoURL = URL(string: "https://pixabay.com/api/videos/")! //影片url
+    //var baseVideoURL = URL(string: "https://pixabay.com/api/videos/")! //影片url
     
     var postData = PostData(data: [PostItems](), total: 0, page: 0, limit: 0) // 空資料 準備接資料
     var postItems = Items(id: "", message: "", owner: Props(id: "", title: "", firstName: "", lastName: "", picture: URL(filePath: "")), post: "", publishDate: "")
@@ -34,7 +34,7 @@ class FrontPageViewController: UIViewController {
     }
     
     func getData(){
-        /*
+        
         NetWorkController.shared.getPostResponse(url: self.basePostURL) { result in
             switch result{
             case .success(let result):
@@ -44,8 +44,8 @@ class FrontPageViewController: UIViewController {
             case .failure(let error):
                 print("error \(error) ")
             }
-        }*/
-    
+        }
+        /*
         NetWorkController.shared.getVideoResponse(url: self.baseVideoURL) { result in
             switch result{
             case .success(let result):
@@ -54,7 +54,7 @@ class FrontPageViewController: UIViewController {
                 print("video error \(error) ")
             }
         }
-        
+        */
         /*
         NetWorkController.shared.getResponse(url: self.baseCommentURL) { result in
             switch result{

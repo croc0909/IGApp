@@ -10,7 +10,7 @@ import Kingfisher
 import AVKit
 import AVFoundation
 
-var player = AVPlayer()
+var player:AVPlayer?
 var controller = AVPlayerViewController()
 
 class VideoViewController: UIViewController {
@@ -44,23 +44,22 @@ class VideoViewController: UIViewController {
     func parseData(){
         print("videoData \(videoData.hits.count)")
         
-        DispatchQueue.main.async {
+        DispatchQueue.main.async{
             self.playVideo()
         }
     }
     
-    
     func playVideo(){
         
-        if let videoUrl = videoData.hits[0].videos["tiny"]{
+        if let videoUrl = videoData.hits[0].videos["large"]{
             print("Play \(videoUrl.url)")
-            
-            player = AVPlayer(url: videoUrl.url)
+            //player = AVPlayer(url:URL(string: "https://video-ssl.itunes.apple.com/apple-assets-us-std-000001/Video128/v4/ac/7c/62/ac7c6274-60ea-5b7c-4c99-f08d78bfe574/mzvf_484000410198456586.640x352.h264lc.U.p.m4v")!)
+            player = AVPlayer(url:videoUrl.url)
             let layer = AVPlayerLayer(player: player)
+            layer.frame = VideoView.bounds
             VideoView.layer.addSublayer(layer)
-            player.play()
+            player?.play()
         }
-        
     }
     
     

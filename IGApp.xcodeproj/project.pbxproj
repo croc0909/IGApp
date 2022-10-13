@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4210378A28F7A61500CAF3C2 /* AccountPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4210378928F7A61500CAF3C2 /* AccountPhotoTableViewCell.swift */; };
 		42357B0228E6923500238FAF /* FrontPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42357B0128E6923500238FAF /* FrontPageTableViewCell.swift */; };
 		426F459928F500580085B586 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F459828F500580085B586 /* VideoViewController.swift */; };
 		426F459B28F502610085B586 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F459A28F502610085B586 /* AccountViewController.swift */; };
@@ -18,6 +19,9 @@
 		427E891E28E420EB00BE21D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427E891D28E420EB00BE21D5 /* Assets.xcassets */; };
 		427E892128E420EB00BE21D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427E891F28E420EB00BE21D5 /* LaunchScreen.storyboard */; };
 		427E892A28E422BE00BE21D5 /* NetWorkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E892928E422BE00BE21D5 /* NetWorkController.swift */; };
+		428B29E928F64EDF00C3981F /* personalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B29E828F64EDF00C3981F /* personalModel.swift */; };
+		428B29EB28F6592A00C3981F /* AccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B29EA28F6592A00C3981F /* AccountCollectionViewCell.swift */; };
+		428B29ED28F68E5600C3981F /* AccountPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B29EC28F68E5600C3981F /* AccountPhotoViewController.swift */; };
 		42AC351228ED202E00FAB379 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC351128ED202E00FAB379 /* CommentModel.swift */; };
 		42AC351428ED5AB000FAB379 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC351328ED5AB000FAB379 /* ImageDataModel.swift */; };
 		42B1143B28EE68DC0012DF03 /* postDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1143A28EE68DC0012DF03 /* postDataModel.swift */; };
@@ -30,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4210378928F7A61500CAF3C2 /* AccountPhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPhotoTableViewCell.swift; sourceTree = "<group>"; };
 		42357B0128E6923500238FAF /* FrontPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageTableViewCell.swift; sourceTree = "<group>"; };
 		426F459828F500580085B586 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		426F459A28F502610085B586 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +48,9 @@
 		427E892028E420EB00BE21D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		427E892228E420EB00BE21D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		427E892928E422BE00BE21D5 /* NetWorkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkController.swift; sourceTree = "<group>"; };
+		428B29E828F64EDF00C3981F /* personalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalModel.swift; sourceTree = "<group>"; };
+		428B29EA28F6592A00C3981F /* AccountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCollectionViewCell.swift; sourceTree = "<group>"; };
+		428B29EC28F68E5600C3981F /* AccountPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPhotoViewController.swift; sourceTree = "<group>"; };
 		42AC351128ED202E00FAB379 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		42AC351328ED5AB000FAB379 /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
 		42B1143A28EE68DC0012DF03 /* postDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postDataModel.swift; sourceTree = "<group>"; };
@@ -71,6 +79,8 @@
 				42357B0128E6923500238FAF /* FrontPageTableViewCell.swift */,
 				42B1143F28EEBAEC0012DF03 /* MessageTableViewCell.swift */,
 				42BE29FA28F00FDE008BE0CC /* FirstCommentTableViewCell.swift */,
+				428B29EA28F6592A00C3981F /* AccountCollectionViewCell.swift */,
+				4210378928F7A61500CAF3C2 /* AccountPhotoTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,6 +112,7 @@
 				427E891528E420E900BE21D5 /* ViewController.swift */,
 				427E891728E420E900BE21D5 /* Main.storyboard */,
 				426F459A28F502610085B586 /* AccountViewController.swift */,
+				428B29EC28F68E5600C3981F /* AccountPhotoViewController.swift */,
 				426F459828F500580085B586 /* VideoViewController.swift */,
 				42B1900428E52BCF00ACF865 /* FrontPageViewController.swift */,
 				42B1144128EEBB4B0012DF03 /* MessageViewController.swift */,
@@ -128,6 +139,7 @@
 				42AC351328ED5AB000FAB379 /* ImageDataModel.swift */,
 				42B1143A28EE68DC0012DF03 /* postDataModel.swift */,
 				42BE29FC28F020CA008BE0CC /* VideoModel.swift */,
+				428B29E828F64EDF00C3981F /* personalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -210,14 +222,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				42357B0228E6923500238FAF /* FrontPageTableViewCell.swift in Sources */,
+				428B29E928F64EDF00C3981F /* personalModel.swift in Sources */,
+				428B29EB28F6592A00C3981F /* AccountCollectionViewCell.swift in Sources */,
 				42AC351228ED202E00FAB379 /* CommentModel.swift in Sources */,
 				426F459B28F502610085B586 /* AccountViewController.swift in Sources */,
+				428B29ED28F68E5600C3981F /* AccountPhotoViewController.swift in Sources */,
 				427E891628E420E900BE21D5 /* ViewController.swift in Sources */,
 				42BE29FD28F020CA008BE0CC /* VideoModel.swift in Sources */,
 				427E891228E420E900BE21D5 /* AppDelegate.swift in Sources */,
 				42B1144028EEBAEC0012DF03 /* MessageTableViewCell.swift in Sources */,
 				427E891428E420E900BE21D5 /* SceneDelegate.swift in Sources */,
 				42BE29FB28F00FDE008BE0CC /* FirstCommentTableViewCell.swift in Sources */,
+				4210378A28F7A61500CAF3C2 /* AccountPhotoTableViewCell.swift in Sources */,
 				426F459928F500580085B586 /* VideoViewController.swift in Sources */,
 				42AC351428ED5AB000FAB379 /* ImageDataModel.swift in Sources */,
 				42B1900528E52BCF00ACF865 /* FrontPageViewController.swift in Sources */,

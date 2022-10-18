@@ -23,17 +23,29 @@ class FrontPageTableViewCell: UITableViewCell {
     @IBOutlet weak var moreCommentsButton: UIButton!
     @IBOutlet weak var timeLabel: UILabel!
     
+    @IBOutlet weak var accountStackView: UIStackView!
+    @IBOutlet weak var nameStackView: UIStackView!
+    @IBOutlet weak var interactionsStackView: UIStackView!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        avatarImageView.layer.cornerRadius = avatarImageView.frame.size.height/2 // 圓角
+        setUI()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func setUI(){
+        avatarImageView.layer.cornerRadius = avatarImageView.frame.size.height/2 // 圓角
+        
+        accountStackView.setCustomSpacing(10, after: avatarImageView)
+        
+        interactionsStackView.setCustomSpacing(50, after: shareButton)
     }
 
 }

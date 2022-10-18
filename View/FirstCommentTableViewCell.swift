@@ -13,6 +13,9 @@ class FirstCommentTableViewCell: UITableViewCell {
     @IBOutlet weak var messageContentLabel: UILabel!
     @IBOutlet weak var messageTimeLabel: UILabel!
     
+    @IBOutlet weak var messageStackView: UIStackView!
+    @IBOutlet weak var firstCommentStackView: UIStackView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -24,5 +27,7 @@ class FirstCommentTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    
 
 }

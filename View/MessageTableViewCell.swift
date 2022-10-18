@@ -16,10 +16,17 @@ class MessageTableViewCell: UITableViewCell {
     @IBOutlet weak var replyButton: UIButton!
     @IBOutlet weak var likeButton: UIButton!
     
+    @IBOutlet weak var messageStacjView: UIStackView!
+    @IBOutlet weak var AllMessageStackView: UIStackView!
+    
+    @IBOutlet weak var MessageCellStackView: UIStackView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         avatarImageView.layer.cornerRadius = avatarImageView.frame.height/2
+        
+        MessageCellStackView.setCustomSpacing(10, after: avatarImageView)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

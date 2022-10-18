@@ -116,14 +116,36 @@ extension MessageViewController : UITableViewDelegate,UITableViewDataSource{
         if(indexPath.row == 0){
             let cell = tableView.dequeueReusableCell(withIdentifier: "FirstCommentTableViewCell", for: indexPath) as! FirstCommentTableViewCell
             cell.avatarImageView.kf.setImage(with: commentData.data[indexPath.row].owner.picture)
-            cell.messageContentLabel.text =  "\(commentData.data[indexPath.row].owner.firstName) \(commentData.data[indexPath.row].owner.lastName) \(commentData.data[indexPath.row].message)"
+
+            var content = AttributedString()
+            var name = AttributedString("\(commentData.data[indexPath.row].owner.firstName)\(commentData.data[indexPath.row].owner.lastName)")
+                name.font = .boldSystemFont(ofSize: 17)
+                name.foregroundColor = .black
+                content += name
             
+            var message = AttributedString(" \(commentData.data[indexPath.row].message)")
+                message.font = .systemFont(ofSize: 17)
+                message.foregroundColor = .gray
+                content += message
+            
+            cell.messageContentLabel.attributedText = NSAttributedString(content)
             return cell
         }else{
             let cell = tableView.dequeueReusableCell(withIdentifier: "MessageTableViewCell", for: indexPath) as! MessageTableViewCell
             
             cell.avatarImageView.kf.setImage(with: commentData.data[indexPath.row].owner.picture)
-            cell.messageContentLabel.text = "\(commentData.data[indexPath.row].owner.firstName) \(commentData.data[indexPath.row].owner.lastName) \(commentData.data[indexPath.row].message)"
+            var content = AttributedString()
+            var name = AttributedString("\(commentData.data[indexPath.row].owner.firstName)\(commentData.data[indexPath.row].owner.lastName)")
+                name.font = .boldSystemFont(ofSize: 17)
+                name.foregroundColor = .black
+                content += name
+            
+            var message = AttributedString(" \(commentData.data[indexPath.row].message)")
+                message.font = .systemFont(ofSize: 17)
+                message.foregroundColor = .gray
+                content += message
+            
+            cell.messageContentLabel.attributedText = NSAttributedString(content)
             return cell
         }
     }

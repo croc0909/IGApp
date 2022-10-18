@@ -144,7 +144,7 @@ extension MessageViewController : UITableViewDelegate,UITableViewDataSource{
                 message.font = .systemFont(ofSize: 17)
                 message.foregroundColor = .gray
                 content += message
-            
+ 
             cell.messageContentLabel.attributedText = NSAttributedString(content)
             return cell
         }
